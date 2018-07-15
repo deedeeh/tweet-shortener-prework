@@ -42,6 +42,3 @@ end
 def shortened_tweet_truncator(tweet)
   word_substituter(tweet).length > 140 ? "#{word_substituter(tweet)[0..135]} ..." : tweet
 end
-
-
-bulk_tweet_shortener("Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!")
